@@ -6,7 +6,6 @@ A robust backend system for a movie reservation service built with Node.js, Expr
 
 - [Overview](#overview)
 - [Features](#features)
-- [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Configuration](#configuration)
 - [Usage](#usage)
@@ -42,11 +41,13 @@ Movie Reservation System is a robust backend solution for managing cinema ticket
 ## Configuration
 
 1. Create a `.env` file in the root directory with the following content:
+```
 PORT=3000
 MONGODB_URI=mongodb://localhost:27017/movie_reservation_system
 JWT_SECRET=your_jwt_secret_here
+```
 
-2. Adjust the values according to your environment.
+3. Adjust the values according to your environment.
 
 ## Usage
 
